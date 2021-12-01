@@ -4,12 +4,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.we_muslim20.R
 
-class DzikirActivity : AppCompatActivity() {
+class DoaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_dzikir)
+        setContentView(R.layout.activity_doa)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
+
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return super.onSupportNavigateUp()

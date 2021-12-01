@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:label="fragment_home"
+        android:name="com.example.we_muslim20.fragment.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_explore"
+        android:label="fragment_explore"
+        android:name="com.example.we_muslim20.fragment.ExploreFragment"
+        tools:layout="@layout/fragment_explore" />
+</navigation>
