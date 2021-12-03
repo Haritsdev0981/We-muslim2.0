@@ -8,9 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.we_muslim20.R
 import com.example.we_muslim20.databinding.FragmentHomeBinding
-import com.example.we_muslim20.home.AsmaulHusnaActivity
-import com.example.we_muslim20.home.DoaActivity
-import com.example.we_muslim20.home.DzikirActivity
+import com.example.we_muslim20.home.*
 
 class HomeFragment : Fragment() {
 
@@ -40,6 +38,11 @@ class HomeFragment : Fragment() {
         }
         binding.imgBtnFitur3.setOnClickListener {
             val intent = Intent(this@HomeFragment.context, DzikirActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.txtOthers.setOnClickListener {
+            val intent = Intent(this@HomeFragment.context, KajianActivity::class.java)
             startActivity(intent)
         }
     }
