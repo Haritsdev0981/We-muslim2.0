@@ -1,9 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".home.DzikirActivity">
+    
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380dp"
+            android:layout_height="225dp"
+            android:id="@+id/crd_sholat">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dzikiesholat"
+                    android:id="@+id/img_sholat"/>
+
+                <TextView
+                    android:id="@+id/txtSholat"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Dzikir Setelah Sholat"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginTop="15dp"
+            android:layout_width="380dp"
+            android:layout_height="225dp"
+            android:id="@+id/crd_pagi">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dzikirpagi"
+                    android:id="@+id/img_pagi"/>
+
+                <TextView
+                    android:id="@+id/txtpagi"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Dzikir Pagi"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="380dp"
+            android:layout_height="225dp"
+            android:id="@+id/crd_petang">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dzikirpetang"
+                    android:id="@+id/img_petang"/>
+
+                <TextView
+                    android:id="@+id/txtpetang"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Dzikir Petang"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
