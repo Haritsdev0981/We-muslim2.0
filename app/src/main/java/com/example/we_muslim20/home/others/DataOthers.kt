@@ -22,6 +22,7 @@ object DataOthers {
         "Ustad Riza Basallamah",
         "Yufid tv"
     )
+
      val listOthers:  ArrayList<OthersSetting>
      get() {
          val listOthers = arrayListOf<OthersSetting>()

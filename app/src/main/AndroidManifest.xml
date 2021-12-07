@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wemuslim20.ActionBar">
         <activity
+            android:name=".home.DzikirSetelahSholat.DzikirSholatActivity"
+            android:exported="true" />
+        <activity
             android:name=".home.KajianActivity"
             android:exported="true" />
         <activity
