@@ -1,6 +1,6 @@
-package com.example.we_muslim20.home.AsmaulHusna
+package com.example.we_muslim20.data
 
-object DataAsmaul {
+object AllData {
     val hijaiyah = arrayOf(
         "اللَّه",
         "الرَّحْمَنُ",
@@ -211,7 +211,7 @@ object DataAsmaul {
         "Allah",
         "Yang Maha Pengasih",
         "Yang Maha Penyayang",
-        "Yang Maha Merajai atau Memerintah",
+        "Yang Maha Merajai / Memerintah",
         "Yang Maha Suci",
         "Yang Maha Memberi Kesejahteraan",
         "Yang Maha Memberi Keamanan",
@@ -310,17 +310,17 @@ object DataAsmaul {
         "Allah Yang Maha Sabar"
     )
 
-    val listAsmaulHusna: ArrayList<AsmaulSetting>
-        get() {
-            val listAsmaulHusna = arrayListOf<AsmaulSetting>()
-            for (position in hijaiyah.indices) {
-                val data = AsmaulSetting(
-                    judul = namaAsmaulHusna[position],
-                    arti = terjemahanAsmaulHusna[position],
-                    arab = hijaiyah[position]
-                )
-                listAsmaulHusna.add(data)
-            }
-            return listAsmaulHusna
+    val listAsmaulHusna : ArrayList<Data>
+    get() {
+        val listAsmaulHusna = arrayListOf<Data>()
+        for (position in hijaiyah.indices){
+            val data = Data(
+                latin = hijaiyah[position],
+                name = namaAsmaulHusna[position],
+                terjemah = terjemahanAsmaulHusna[position]
+            )
+            listAsmaulHusna.add(data)
         }
+        return listAsmaulHusna
+    }
 }

@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_margin="10dp"
-    android:orientation="horizontal">
+    android:layout_width="194dp"
+    android:layout_height="230dp"
+    android:layout_marginBottom="15dp">
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="194dp"
         android:layout_height="230dp"
-        app:cardBackgroundColor="@color/inti"
+        app:cardBackgroundColor="@color/asmaul"
         app:cardCornerRadius="10dp">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
             <TextView
+                android:layout_alignParentTop="true"
                 android:id="@+id/txt_arabasmaul"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -26,21 +25,24 @@
                 android:fontFamily="@font/arabic_arihna"
                 android:text="الرَّحْمَنُ"
                 android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="38sp" />
 
             <TextView
                 android:id="@+id/txt_namaAsmaul"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_arabasmaul"
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/poppins_semi_bold"
                 android:text="Ar Rahmanu"
+                android:maxLines="2"
                 android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <TextView
+                android:layout_below="@+id/txt_namaAsmaul"
                 android:id="@+id/txt_artiasmaul"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -48,10 +50,10 @@
                 android:maxLines="2"
                 android:text="Yang Maha Pengasih"
                 android:textAlignment="center"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="14sp" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
     </com.google.android.material.card.MaterialCardView>
 

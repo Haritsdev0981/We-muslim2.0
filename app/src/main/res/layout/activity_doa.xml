@@ -1,9 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home.DoaActivity">
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".home.DoaActivity"
+    android:padding="10dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardBackgroundColor="@color/inti"
+        android:id="@+id/tidurr"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/inti"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="306dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center"
+            >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doa Sebelum Tidur"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins_regular" />
+
+        <ImageView
+            android:layout_width="204dp"
+            android:layout_height="77dp"
+            android:src="@drawable/doatidurr"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:text="“Dengan Nama Mu, Ya Alloh Aku Mati Dan Aku Hidup”" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardBackgroundColor="@color/inti"
+        android:id="@+id/makan"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="306dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do'a Sebelum Makan"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_regular" />
+
+            <ImageView
+                android:layout_width="163dp"
+                android:layout_height="70dp"
+                android:src="@drawable/doa2"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textAlignment="center"
+                android:text="“Dengan Menyebut Nama Alloh Yang Maha Pengasih Lagi Maha Penyayang”" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardBackgroundColor="@color/inti"
+        android:id="@+id/stlh_makan"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="306dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do'a Setelah Makan"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_regular" />
+
+            <ImageView
+                android:layout_width="204dp"
+                android:layout_height="77dp"
+                android:src="@drawable/doa3"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:text="“Segala Puji Bagi Alloh”" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardBackgroundColor="@color/inti"
+        android:id="@+id/belajar"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="306dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do'a Sebelum Belajar"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_regular" />
+
+            <ImageView
+                android:layout_width="204dp"
+                android:layout_height="63dp"
+                android:src="@drawable/doa4"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textAlignment="center"
+                android:text="“Ya Allah, tambahkanlah aku ilmu, dan berilaku aku karunia untuk dapat memahaminya, dan jadikanlah aku termasuk golongannya orang-orang yang saleh”." />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
