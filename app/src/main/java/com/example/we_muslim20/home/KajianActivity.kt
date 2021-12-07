@@ -24,7 +24,7 @@ class KajianActivity : AppCompatActivity() {
         val rvKajian = findViewById<RecyclerView>(R.id.rcy_kajian)
         rvKajian.layoutManager = LinearLayoutManager(this)
         rvKajian.adapter = OthersAdapter(DataOthers.listOthers)
-    }
+    } 
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
