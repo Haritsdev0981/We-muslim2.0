@@ -11,7 +11,7 @@
 
 
     <com.google.android.material.card.MaterialCardView
-        app:cardBackgroundColor="@color/inti"
+        app:cardBackgroundColor="@color/asmaul"
         android:id="@+id/tidurr"
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -22,34 +22,38 @@
             android:orientation="vertical"
             android:layout_width="306dp"
             android:layout_height="122dp"
-            android:layout_gravity="center"
-            >
+            android:layout_gravity="center">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Doa Sebelum Tidur"
             android:textAlignment="center"
-            android:fontFamily="@font/poppins_regular" />
-
-        <ImageView
-            android:layout_width="204dp"
-            android:layout_height="77dp"
-            android:src="@drawable/doatidurr"
-            android:layout_gravity="center"/>
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_semi_bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
+            android:text="بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا"
+            android:layout_marginTop="5dp"
             android:textAlignment="center"
-            android:text="“Dengan Nama Mu, Ya Alloh Aku Mati Dan Aku Hidup”" />
+            android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="“Dengan Nama Mu, Ya Alloh Aku Mati Dan Aku Hidup”"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp" />
 
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        app:cardBackgroundColor="@color/inti"
+        app:cardBackgroundColor="@color/asmaul"
         android:id="@+id/makan"
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -67,26 +71,31 @@
                 android:layout_height="wrap_content"
                 android:text="Do'a Sebelum Makan"
                 android:textAlignment="center"
-                android:fontFamily="@font/poppins_regular" />
-
-            <ImageView
-                android:layout_width="163dp"
-                android:layout_height="70dp"
-                android:src="@drawable/doa2"
-                android:layout_gravity="center"/>
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_semi_bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="10sp"
+                android:text="بِسْمِ اللَّه"
                 android:textAlignment="center"
-                android:text="“Dengan Menyebut Nama Alloh Yang Maha Pengasih Lagi Maha Penyayang”" />
+                android:layout_marginTop="5dp"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="“Dengan Menyebut Nama Alloh”" />
 
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        app:cardBackgroundColor="@color/inti"
+        app:cardBackgroundColor="@color/asmaul"
         android:id="@+id/stlh_makan"
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -104,26 +113,31 @@
                 android:layout_height="wrap_content"
                 android:text="Do'a Setelah Makan"
                 android:textAlignment="center"
-                android:fontFamily="@font/poppins_regular" />
-
-            <ImageView
-                android:layout_width="204dp"
-                android:layout_height="77dp"
-                android:src="@drawable/doa3"
-                android:layout_gravity="center"/>
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_semi_bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="15sp"
+                android:text="الْحَمْدُ للَّهِ"
                 android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textSize="28sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_regular"
                 android:text="“Segala Puji Bagi Alloh”" />
 
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        app:cardBackgroundColor="@color/inti"
+        app:cardBackgroundColor="@color/asmaul"
         android:id="@+id/belajar"
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -141,20 +155,25 @@
                 android:layout_height="wrap_content"
                 android:text="Do'a Sebelum Belajar"
                 android:textAlignment="center"
-                android:fontFamily="@font/poppins_regular" />
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_semi_bold" />
 
-            <ImageView
-                android:layout_width="204dp"
-                android:layout_height="63dp"
-                android:src="@drawable/doa4"
-                android:layout_gravity="center"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="رَبِّ زِدْنِي عِلْمًا، وَارْزُقْنِيْ فَهْمًا"
+               android:textAlignment="center"
+               android:layout_marginTop="5dp"
+               android:textSize="25sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="10sp"
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
                 android:textAlignment="center"
-                android:text="“Ya Allah, tambahkanlah aku ilmu, dan berilaku aku karunia untuk dapat memahaminya, dan jadikanlah aku termasuk golongannya orang-orang yang saleh”." />
+                android:fontFamily="@font/poppins_regular"
+                android:text="“Ya Allah, tambahkanlah aku ilmu, dan berilaku aku karunia untuk dapat memahaminya”" />
 
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
