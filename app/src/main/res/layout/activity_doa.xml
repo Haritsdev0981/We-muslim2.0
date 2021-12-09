@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
     tools:context=".home.DoaActivity"
     android:padding="10dp">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <com.google.android.material.card.MaterialCardView
         app:cardBackgroundColor="@color/asmaul"
@@ -177,5 +179,90 @@
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
+    <com.google.android.material.card.MaterialCardView
+        app:cardBackgroundColor="@color/asmaul"
+        android:id="@+id/masjid"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="15dp">
 
-</LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="306dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do'a Masuk Masjid"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_semi_bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اَللّٰهُمَّ افْتَحْ لِيْ اَبْوَابَ رَحْمَتِكَ"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_regular"
+                android:text="“Ya Allah, bukalah untukku pintu-pintu rahmat-Mu”" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardBackgroundColor="@color/asmaul"
+        android:id="@+id/klrmasjid"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="306dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do'a Keluar Masjid"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_semi_bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اَللّٰهُمَّ اِنِّى اَسْأَلُكَ مِنْ فَضْلِكَ"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_regular"
+                android:text="“Ya Allah, sesungguhnya aku memohon keutamaan dari-Mu”" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
