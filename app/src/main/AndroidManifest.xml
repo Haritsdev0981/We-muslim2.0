@@ -14,7 +14,8 @@
             android:exported="true" />
         <activity
             android:name=".home.DzikirSetelahSholat.DzikirSholatActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.Wemuslim20.NoAction"/>
         <activity
             android:name=".home.KajianActivity"
             android:exported="true" />

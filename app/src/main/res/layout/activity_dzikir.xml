@@ -5,100 +5,100 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".home.DzikirActivity">
-    
+
     <LinearLayout
-        android:paddingTop="20dp"
-        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/crd_sholat"
             android:layout_width="380dp"
-            android:layout_height="225dp"
-            android:id="@+id/crd_sholat">
+            android:layout_height="225dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/img_sholat"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/dzikiesholat"
-                    android:id="@+id/img_sholat"/>
+                    android:src="@drawable/dzikiesholat" />
 
                 <TextView
                     android:id="@+id/txtSholat"
                     android:layout_width="match_parent"
                     android:layout_height="46dp"
-                    android:gravity="center"
-                    android:textSize="16sp"
                     android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
                     android:text="Dzikir Setelah Sholat"
                     android:textAlignment="center"
-                    android:textColor="#ffffff" />
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
             </RelativeLayout>
 
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            android:layout_marginTop="15dp"
+            android:id="@+id/crd_pagi"
             android:layout_width="380dp"
             android:layout_height="225dp"
-            android:id="@+id/crd_pagi">
+            android:layout_marginTop="15dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/img_pagi"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/dzikirpagi"
-                    android:id="@+id/img_pagi"/>
+                    android:src="@drawable/dzikirpagi" />
 
                 <TextView
                     android:id="@+id/txtpagi"
                     android:layout_width="match_parent"
                     android:layout_height="46dp"
-                    android:gravity="center"
                     android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
                     android:text="Dzikir Pagi"
-                    android:textSize="16sp"
                     android:textAlignment="center"
-                    android:textColor="#ffffff" />
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
             </RelativeLayout>
 
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:id="@+id/crd_petang"
             android:layout_width="380dp"
             android:layout_height="225dp"
-            android:id="@+id/crd_petang">
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/img_petang"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/dzikirpetang"
-                    android:id="@+id/img_petang"/>
+                    android:src="@drawable/dzikirpetang" />
 
                 <TextView
                     android:id="@+id/txtpetang"
                     android:layout_width="match_parent"
                     android:layout_height="46dp"
-                    android:gravity="center"
                     android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
                     android:text="Dzikir Petang"
-                    android:textSize="16sp"
                     android:textAlignment="center"
-                    android:textColor="#ffffff" />
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
             </RelativeLayout>
 
         </com.google.android.material.card.MaterialCardView>
