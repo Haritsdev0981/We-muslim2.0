@@ -24,6 +24,11 @@ class DzikirActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.crdPetang.setOnClickListener {
+            val intent = Intent(this,DzikirPetangActivity::class.java)
+            startActivity(intent)
+        }
+
     }
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()

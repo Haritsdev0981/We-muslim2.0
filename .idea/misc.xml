@@ -10,6 +10,7 @@
         <entry key="app/src/main/res/layout/activity_detail.xml" value="0.1911231884057971" />
         <entry key="app/src/main/res/layout/activity_doa.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_dzikir.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_dzikir_petang.xml" value="0.11398176291793313" />
         <entry key="app/src/main/res/layout/activity_dzikir_sholat.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_kajian.xml" value="0.1911231884057971" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
@@ -19,6 +20,7 @@
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.1911231884057971" />
         <entry key="app/src/main/res/layout/item_listview_dzikirsholat.xml" value="0.25" />
         <entry key="app/src/main/res/layout/row_item_asmaul_husna.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/row_item_dzikir.xml" value="0.1" />
         <entry key="app/src/main/res/layout/row_item_studies_satu.xml" value="0.2807971014492754" />
         <entry key="app/src/main/res/menu/menu_nav.xml" value="0.19722222222222222" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2324074074074074" />
