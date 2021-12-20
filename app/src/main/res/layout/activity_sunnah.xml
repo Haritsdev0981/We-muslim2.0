@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".home.SunnahActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:text="Sunnah Qauliyah"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="5dp"
+            android:text="Sunnah Qauliyyah adalah macam-macam sunnah yang berasal dari ucapan Nabi Muhammad SAW. Sunnah Qauliyyah adalah ucapan Rasulullah yang didengar atau disampaikan oleh seseorang atau beberapa sahabat."
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="113dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/view1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:text="Contoh Sunnah Qauliyah"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="5dp"
+            android:text="•Penentuan Puasa Ramadhan\n•Membaca Al Fatihah saat Sholat\n•Adab Makan Dan Minum"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:text="Sunnah Fi’liyah"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="5dp"
+            android:text="Sunnah fiiliyyah adalah macam-macam sunnah yang berasal dari perbuatan Nabi Muhammad SAW. Perbuatan ini dilihat, diketahui dan disampaikan para sahabat kepada orang lain."
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="113dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/view2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:text="Contoh Sunnah Fi’liyah"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="5dp"
+            android:text="••Mencuci Tangan Sebelum Makan\n•Keistimewaan Kucing\n•Shalat Sunnah"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

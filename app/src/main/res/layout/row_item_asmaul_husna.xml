@@ -7,7 +7,8 @@
     android:layout_height="wrap_content">
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="194dp"
+        android:id="@+id/mcview_itemasma"
+        android:layout_width="184dp"
         android:layout_height="230dp"
         android:layout_gravity="center"
         app:cardElevation="2dp"
@@ -16,6 +17,7 @@
         app:cardCornerRadius="10dp">
 
         <RelativeLayout
+            android:id="@+id/Rltv_Asmaul"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -48,8 +50,8 @@
                 android:layout_below="@+id/txt_arabasmaul"
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/poppins_semi_bold"
-                android:text="Ar Rahmanu"
                 android:maxLines="2"
+                android:text="Ar Rahmanu"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />

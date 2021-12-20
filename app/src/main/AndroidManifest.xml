@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wemuslim20.ActionBar">
         <activity
+            android:name=".home.SunnahActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.SpashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".home.DzikirPetangActivity"
             android:exported="true" />
         <activity
@@ -37,11 +49,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
