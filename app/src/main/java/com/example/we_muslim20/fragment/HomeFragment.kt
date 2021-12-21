@@ -45,5 +45,9 @@ class HomeFragment : Fragment() {
             val intent = Intent(this@HomeFragment.context, KajianActivity::class.java)
             startActivity(intent)
         }
+        binding.imgBtnFitur4.setOnClickListener {
+            val intent = Intent(this@HomeFragment.context, SunnahActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

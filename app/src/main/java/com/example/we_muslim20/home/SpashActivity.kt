@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.example.we_muslim20.MainActivity
 import com.example.we_muslim20.R
 import com.example.we_muslim20.fragment.HomeFragment
 
@@ -18,7 +19,7 @@ class SpashActivity : AppCompatActivity() {
             // This method will be executed once the timer is over
             // Start your app main activity
 
-            startActivity(Intent(this,HomeFragment::class.java))
+            startActivity(Intent(this,MainActivity::class.java))
 
             // close this activity
             finish()
