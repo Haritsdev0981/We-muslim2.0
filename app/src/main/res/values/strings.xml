@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">we-muslim 2.0</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descloginjudul">Masukan nama atau email dan  password anda disini.</string>
+    <string name="app_name_gede">WE - MUSLIM</string>
 
 
 </resources>

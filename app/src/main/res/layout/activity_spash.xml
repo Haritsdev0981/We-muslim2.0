@@ -11,15 +11,15 @@
 
 
     <ImageView
-        android:layout_width="131dp"
-        android:layout_height="110dp"
+        android:layout_width="141dp"
+        android:layout_height="120dp"
         android:src="@drawable/splash1"
         tools:layout_editor_absoluteX="140dp"
         tools:layout_editor_absoluteY="310dp" />
 
 
     <ProgressBar
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="14dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="0dp"
