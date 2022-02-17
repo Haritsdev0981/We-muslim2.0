@@ -7,6 +7,7 @@ import android.os.Handler
 import com.example.we_muslim20.MainActivity
 import com.example.we_muslim20.R
 import com.example.we_muslim20.fragment.HomeFragment
+import com.example.we_muslim20.home.Login.LoginActivity
 
 class SpashActivity : AppCompatActivity() {
 
@@ -19,7 +20,7 @@ class SpashActivity : AppCompatActivity() {
             // This method will be executed once the timer is over
             // Start your app main activity
 
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this,LoginActivity::class.java))
 
             // close this activity
             finish()

@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/bg_header_nav.xml" value="0.30185185185185187" />
+        <entry key="app/src/main/res/drawable/color_password_toggle.xml" value="0.31296296296296294" />
         <entry key="app/src/main/res/font-v26/atur_font.xml" value="0.3074074074074074" />
         <entry key="app/src/main/res/font/atur_font.xml" value="0.3074074074074074" />
         <entry key="app/src/main/res/layout/activity_asmaul_husna.xml" value="0.1911231884057971" />
@@ -27,6 +28,7 @@
         <entry key="app/src/main/res/layout/row_item_studies_satu.xml" value="0.2807971014492754" />
         <entry key="app/src/main/res/menu/menu_nav.xml" value="0.19722222222222222" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2324074074074074" />
+        <entry key="app/src/release/res/menu/color_password_toggle.xml" value="0.334375" />
       </map>
     </option>
   </component>
