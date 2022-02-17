@@ -3,9 +3,11 @@ package com.example.we_muslim20.home.Login
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import com.example.we_muslim20.MainActivity
 import com.example.we_muslim20.databinding.ActivityLoginBinding
+import com.example.we_muslim20.fragment.HomeFragment
 
 class LoginActivity : AppCompatActivity() {
 
@@ -22,7 +24,7 @@ class LoginActivity : AppCompatActivity() {
         binding.btnCon.setOnClickListener {
 //                val userName = binding.txtInputLytnama
 //                val userPass = binding.txtInputLytsandi
-            if (binding.txtInputLytnama.toString() == "muslim" && binding.txtInputLytsandi.toString() == "mujahid") {
+            if (binding.txtinptNama.text.toString() == "lol" && binding.txtinptSandi.text.toString() == "lol") {
                 startActivity(Intent(this, MainActivity::class.java))
                 finish()
             } else {
@@ -30,7 +32,8 @@ class LoginActivity : AppCompatActivity() {
             }
         }
 
-        //test github coba
-
+        //todo : test github coba
     }
+
+
 }

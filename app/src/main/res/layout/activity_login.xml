@@ -53,6 +53,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:id="@+id/txtinpt_nama"
             android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -68,12 +69,13 @@
         app:boxCornerRadiusBottomStart="10dp"
         app:boxCornerRadiusTopEnd="10dp"
         app:boxCornerRadiusTopStart="10dp"
-        app:passwordToggleEnabled="true"
         app:endIconMode="clear_text"
         app:layout_constraintTop_toBottomOf="@id/txt_input_lytnama">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:id="@+id/txtinpt_sandi"
+            android:inputType="textPassword"
             android:layout_height="wrap_content"/>
 
     </com.google.android.material.textfield.TextInputLayout>
