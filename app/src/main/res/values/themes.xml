@@ -21,4 +21,11 @@
     <style name="Theme.Wemuslim20.ActionBar" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <item name="colorPrimary">@color/inti</item>
     </style>
+    <style name="Theme.Wemuslim20.ActionBar.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Wemuslim20.ActionBar.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Wemuslim20.ActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

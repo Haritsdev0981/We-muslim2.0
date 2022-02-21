@@ -95,7 +95,7 @@
                 android:layout_below="@id/edt_header"
                 android:src="@drawable/time_vector_24" />
 
-            <TextView
+            <TextClock
                 android:id="@+id/txt_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -103,16 +103,19 @@
                 android:layout_marginStart="5dp"
                 android:layout_toRightOf="@+id/vector_time"
                 android:fontFamily="@font/poppins_regular"
-                android:text="15.04 WIB" />
+                android:format24Hour="HH.mm"/>
 
-            <TextView
+            <TextClock
                 android:id="@+id/txt_tanggal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/edt_header"
                 android:layout_alignParentRight="true"
                 android:fontFamily="@font/poppins_regular"
-                android:text="Monday 20, Sept 2021" />
+                android:format24Hour="EEEE dd, MMM yyyy"
+                android:format12Hour="EEEE dd, MMM yyyy"/>
+
+<!--            Monday 20, Sept 2021-->
 
         </RelativeLayout>
 

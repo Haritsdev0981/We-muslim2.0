@@ -18,6 +18,7 @@ class KajianActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityKajianBinding.inflate(layoutInflater)
+        title = "Others"
         setContentView(binding.root)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 

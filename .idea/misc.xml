@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/bg_dzikir.xml" value="0.163" />
         <entry key="app/src/main/res/drawable/bg_header_nav.xml" value="0.30185185185185187" />
+        <entry key="app/src/main/res/drawable/bg_view_lobby.xml" value="0.163" />
+        <entry key="app/src/main/res/drawable/btn_login_lobby.xml" value="0.163" />
+        <entry key="app/src/main/res/drawable/btn_started_lobby.xml" value="0.163" />
         <entry key="app/src/main/res/drawable/color_password_toggle.xml" value="0.31296296296296294" />
         <entry key="app/src/main/res/font-v26/atur_font.xml" value="0.3074074074074074" />
         <entry key="app/src/main/res/font/atur_font.xml" value="0.3074074074074074" />
@@ -14,6 +18,7 @@
         <entry key="app/src/main/res/layout/activity_dzikir_petang.xml" value="0.11398176291793313" />
         <entry key="app/src/main/res/layout/activity_dzikir_sholat.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_kajian.xml" value="0.1911231884057971" />
+        <entry key="app/src/main/res/layout/activity_lobby.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_spash.xml" value="0.16261398176291794" />
@@ -22,6 +27,8 @@
         <entry key="app/src/main/res/layout/fragment_explore.xml" value="0.16979166666666667" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.1911231884057971" />
+        <entry key="app/src/main/res/layout/fragment_screen_slide_pager_activity.xml" value="0.23278985507246377" />
+        <entry key="app/src/main/res/layout/fragment_tahmid.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_listview_dzikirsholat.xml" value="0.25" />
         <entry key="app/src/main/res/layout/row_item_asmaul_husna.xml" value="0.165" />
         <entry key="app/src/main/res/layout/row_item_dzikir.xml" value="0.1" />

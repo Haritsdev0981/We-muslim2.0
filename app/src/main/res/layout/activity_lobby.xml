@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.Login.LobbyActivity">
+
+    <ImageView
+        android:id="@+id/img_lobby"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mosque_lobby" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_view_lobby"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_judul_lobby"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/app_name_gede"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="200dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login_first"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/login_lobby"
+        android:textAllCaps="false"
+        android:textColor="@color/inti"
+        android:background="@drawable/btn_login_lobby"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_started"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_started_lobby"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/started"
+        android:textAllCaps="false"
+        android:textColor="@color/inti"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login_first" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
