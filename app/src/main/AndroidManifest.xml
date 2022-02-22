@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wemuslim20.ActionBar">
         <activity
+            android:name=".home.DzikirSetelahSholat.DzikirSholatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.Login.LobbyActivity"
+            android:exported="false" />
+        <activity
             android:name=".home.Login.LoginActivity"
             android:exported="true" />
         <activity
@@ -32,10 +38,6 @@
             android:name=".home.DzikirPagiActivity"
             android:exported="true" />
         <activity
-            android:name=".home.DzikirSetelahSholat.DzikirSholatActivity"
-            android:exported="true"
-            android:theme="@style/Theme.Wemuslim20.NoAction" />
-        <activity
             android:name=".home.KajianActivity"
             android:exported="true" />
         <activity
@@ -52,7 +54,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

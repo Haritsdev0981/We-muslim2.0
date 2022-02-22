@@ -1,38 +1,29 @@
 package com.example.we_muslim20.home.DzikirSetelahSholat
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.*
+import androidx.viewpager.widget.ViewPager
 import com.example.we_muslim20.R
-import com.example.we_muslim20.databinding.ActivityDzikirSholatBinding
-import com.example.we_muslim20.home.DzikirSetelahSholat.threepray.TahmidFragment
-import com.google.android.material.tabs.TabLayoutMediator
+import com.example.we_muslim20.home.DzikirSetelahSholat.Adapter.MyPagerAdapter
+import com.google.android.material.tabs.TabLayout
 
 class DzikirSholatActivity : AppCompatActivity() {
-
-//    val arabDzikir = listOf("سبحان الل", "الحمد لله", "الله أكبر")
-//    val artiDzikir = listOf("Maha Suci Allah", "Segala Puji Bagi Allah", "Allah Maha Besar")
-
-    private lateinit var binding : ActivityDzikirSholatBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dzikir_sholat)
+//        supportActionBar?.hide()
+        title = "Dzikir Setelah Sholat"
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-//        val tahmid : RelativeLayout = findViewById(R.id.tahmid)
-//        val tasbih : RelativeLayout = findViewById(R.id.tasbih)
-//        val takbir : RelativeLayout = findViewById(R.id.takbir)
+        val viewpager_main = findViewById<ViewPager>(R.id.vp_dzikir)
+        val tabs_dzikir = findViewById<TabLayout>(R.id.tabs_dzikir)
 
-        binding = ActivityDzikirSholatBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        viewpager_main.adapter = MyPagerAdapter(supportFragmentManager)
+        tabs_dzikir.setupWithViewPager(viewpager_main)
 
-        setSupportActionBar(binding.toolbar)
-        binding.vpDzikir.adapter = SectionPageAdapter(this)
-
-        val tabList = arrayOf("Tahmid", "Tasbih", "Takbir")
-        TabLayoutMediator(binding.tabs, binding.vpDzikir){
-                tab, position -> tab.text = tabList[position]
-        }.attach()
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return super.onSupportNavigateUp()
     }
 }

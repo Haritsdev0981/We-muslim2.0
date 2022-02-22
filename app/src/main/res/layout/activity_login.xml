@@ -104,7 +104,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-
         android:fontFamily="@font/poppins_regular"
         android:text="@string/textforgot"
         android:textColor="@color/inti"
