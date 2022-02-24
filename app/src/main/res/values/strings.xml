@@ -22,6 +22,7 @@
     <string name="img_content_takbir">Image Allahuakbar</string>
     <string name="img_content_tahmid">Image Alhamdulilah</string>
     <string name="img_content_tasbih">image subhanaullah</string>
+    <string name="sholat_back_home">Kembali ke halaman utama</string>
 
 
 </resources>

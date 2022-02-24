@@ -75,4 +75,12 @@
 
     </LinearLayout>
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/sholat_back_home"
+        android:background="@drawable/btn_login_lobby"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
