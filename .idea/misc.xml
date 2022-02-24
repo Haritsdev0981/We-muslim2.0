@@ -28,7 +28,9 @@
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.1911231884057971" />
         <entry key="app/src/main/res/layout/fragment_screen_slide_pager_activity.xml" value="0.23278985507246377" />
-        <entry key="app/src/main/res/layout/fragment_tahmid.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_tahmid.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_takbir.xml" value="0.23278985507246377" />
+        <entry key="app/src/main/res/layout/fragment_tasbih.xml" value="0.23278985507246377" />
         <entry key="app/src/main/res/layout/item_listview_dzikirsholat.xml" value="0.25" />
         <entry key="app/src/main/res/layout/row_item_asmaul_husna.xml" value="0.165" />
         <entry key="app/src/main/res/layout/row_item_dzikir.xml" value="0.1" />

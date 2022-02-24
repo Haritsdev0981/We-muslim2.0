@@ -18,6 +18,10 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="jdl_tahmid">Tahmid</string>
+    <string name="img_content_takbir">Image Allahuakbar</string>
+    <string name="img_content_tahmid">Image Alhamdulilah</string>
+    <string name="img_content_tasbih">image subhanaullah</string>
 
 
 </resources>
