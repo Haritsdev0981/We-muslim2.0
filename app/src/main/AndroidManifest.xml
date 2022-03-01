@@ -12,6 +12,10 @@
         <activity
             android:name=".home.DzikirSetelahSholat.DzikirSholatActivity"
             android:exported="false" />
+        <activity android:name=".home.YoutubeActivity"
+            android:exported="false" />
+        <activity android:name=".home.Youtube2Activity"
+            android:exported="false" />
         <activity
             android:name=".home.Login.LobbyActivity"
             android:exported="false" />
@@ -56,5 +60,7 @@
             android:name=".MainActivity"
             android:exported="true" />
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

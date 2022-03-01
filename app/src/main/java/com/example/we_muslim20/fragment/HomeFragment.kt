@@ -24,30 +24,52 @@ class HomeFragment : Fragment() {
         return binding.root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
-        binding.imgBtnFitur1.setOnClickListener {
-            val intent = Intent(this@HomeFragment.context, DoaActivity::class.java)
-            startActivity(intent)
+        initView()
+    }
+
+    private fun initView() {
+        binding.apply {
+
+            isiKajian1.setOnClickListener {
+                val intent = Intent(this@HomeFragment.context, YoutubeActivity::class.java)
+                startActivity(intent)
+            }
+
+            isiKajian2.setOnClickListener {
+                val intent = Intent(this@HomeFragment.context, Youtube2Activity::class.java)
+                startActivity(intent)
+            }
+
+            imgBtnFitur1.setOnClickListener {
+                val intent = Intent(this@HomeFragment.context, DoaActivity::class.java)
+                startActivity(intent)
+            }
+
+            imgBtnFitur2.setOnClickListener {
+                val intent = Intent(this@HomeFragment.context, AsmaulHusnaActivity::class.java)
+                startActivity(intent)
+            }
+
+            imgBtnFitur3.setOnClickListener {
+                val intent = Intent(this@HomeFragment.context, DzikirActivity::class.java)
+                startActivity(intent)
+            }
+
+            txtOthers.setOnClickListener {
+                val intent = Intent(this@HomeFragment.context, KajianActivity::class.java)
+                startActivity(intent)
+            }
+
+            imgBtnFitur4.setOnClickListener {
+                val intent = Intent(this@HomeFragment.context, SunnahActivity::class.java)
+                startActivity(intent)
+            }
         }
 
-        binding.imgBtnFitur2.setOnClickListener {
-            val intent = Intent(this@HomeFragment.context, AsmaulHusnaActivity::class.java)
-            startActivity(intent)
-        }
-        binding.imgBtnFitur3.setOnClickListener {
-            val intent = Intent(this@HomeFragment.context, DzikirActivity::class.java)
-            startActivity(intent)
-        }
 
-        binding.txtOthers.setOnClickListener {
-            val intent = Intent(this@HomeFragment.context, KajianActivity::class.java)
-            startActivity(intent)
-        }
-        binding.imgBtnFitur4.setOnClickListener {
-            val intent = Intent(this@HomeFragment.context, SunnahActivity::class.java)
-            startActivity(intent)
-        }
     }
 }
+

@@ -1,8 +1,5 @@
 <resources>
-<<<<<<< HEAD
     <dimen name="fab_margin">16dp</dimen>
 </resources>
-=======
-        <dimen name="fab_margin">16dp</dimen>
-    </resources>
->>>>>>> origin/master
+
+
