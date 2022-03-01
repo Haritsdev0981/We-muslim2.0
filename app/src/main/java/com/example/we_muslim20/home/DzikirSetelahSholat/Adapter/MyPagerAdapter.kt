@@ -16,7 +16,7 @@ class MyPagerAdapter(fm: FragmentManager): FragmentPagerAdapter(fm) {
         TakbirFragment()
     )
 
-    // todo : tara tara tata tara
+    // buat ganti tulisan commit
 
     override fun getCount(): Int {
         return pages.size
