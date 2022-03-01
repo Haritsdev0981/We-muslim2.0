@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
 
     android:padding="16dp"
-    tools:context=".home.DzikirSetelahSholat.threepray.TakbirFragment">
+    tools:context=".home.DzikirSetelahSholat.afterpray.TakbirFragment">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"

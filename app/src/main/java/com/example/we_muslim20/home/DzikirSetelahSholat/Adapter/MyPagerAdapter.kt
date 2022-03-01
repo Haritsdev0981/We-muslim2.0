@@ -3,17 +3,20 @@ package com.example.we_muslim20.home.DzikirSetelahSholat.Adapter
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.example.we_muslim20.home.DzikirSetelahSholat.threepray.TahmidFragment
-import com.example.we_muslim20.home.DzikirSetelahSholat.threepray.TakbirFragment
-import com.example.we_muslim20.home.DzikirSetelahSholat.threepray.TasbihFragment
+import com.example.we_muslim20.home.DzikirSetelahSholat.afterpray.*
 
 class MyPagerAdapter(fm: FragmentManager): FragmentPagerAdapter(fm) {
 
     private val pages= listOf(
+        PraiseAlloh(),
+        DzikirAfter2(),
+        DzikirAfter3(),
         TasbihFragment(),
         TahmidFragment(),
         TakbirFragment()
     )
+
+    // buat ganti tulisan commit
 
     override fun getCount(): Int {
         return pages.size
@@ -25,8 +28,11 @@ class MyPagerAdapter(fm: FragmentManager): FragmentPagerAdapter(fm) {
 
     override fun getPageTitle(position: Int): CharSequence? {
         return when(position){
-            0 -> "Tasbih"
-            1 -> "Tahmid"
+            0 -> "Dzikir1"
+            1 -> "Dzikir2"
+            2 -> "Dzikir3"
+            4 -> "Tasbih"
+            5 -> "Tahmid"
             else -> "Takbir"
         }
     }
