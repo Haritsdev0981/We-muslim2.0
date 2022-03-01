@@ -23,6 +23,7 @@ class AsmaulHusnaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityAsmaulHusnaBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        title = "Asmaul Husna"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val rvAsmaul = findViewById<RecyclerView>(R.id.rcy_asmaul)
