@@ -16,6 +16,8 @@ class MyPagerAdapter(fm: FragmentManager): FragmentPagerAdapter(fm) {
         TakbirFragment()
     )
 
+    // todo : tara tara tata tara
+
     override fun getCount(): Int {
         return pages.size
     }
