@@ -23,6 +23,10 @@
     <string name="img_content_tahmid">Image Alhamdulilah</string>
     <string name="img_content_tasbih">image subhanaullah</string>
     <string name="sholat_back_home">Kembali ke halaman utama</string>
+    <string name="txt_masukan_nama_anda">Masukan nama anda</string>
+    <string name="txt_masukan_kata_sandi">Masukan kata sandi</string>
+    <string name="txt_masukan_email">Masukan email anda</string>
+    <string name="txt_save">Simpan informasi</string>
 
 
 </resources>

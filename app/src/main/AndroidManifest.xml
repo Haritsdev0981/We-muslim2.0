@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.we_muslim20">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,11 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wemuslim20.ActionBar">
         <activity
+            android:name=".home.RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".home.DzikirSetelahSholat.DzikirSholatActivity"
             android:exported="false" />
-        <activity android:name=".home.YoutubeActivity"
+        <activity
+            android:name=".home.YoutubeActivity"
             android:exported="false" />
-        <activity android:name=".home.Youtube2Activity"
+        <activity
+            android:name=".home.Youtube2Activity"
             android:exported="false" />
         <activity
             android:name=".home.Login.LobbyActivity"
@@ -60,7 +67,5 @@
             android:name=".MainActivity"
             android:exported="true" />
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

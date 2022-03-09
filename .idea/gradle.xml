@@ -5,9 +5,9 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="LOCAL" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$USER_HOME$/Grade 10/Lesson/IT/gradle-7.0.2" />
+        <option name="gradleHome" value="$USER_HOME$/Library/gradle-7.0.2" />
         <option name="gradleJvm" value="Android Studio java home" />
         <option name="modules">
           <set>

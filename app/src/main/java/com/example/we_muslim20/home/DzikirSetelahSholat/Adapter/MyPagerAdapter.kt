@@ -28,12 +28,12 @@ class MyPagerAdapter(fm: FragmentManager): FragmentPagerAdapter(fm) {
 
     override fun getPageTitle(position: Int): CharSequence? {
         return when(position){
-            0 -> "Dzikir1"
-            1 -> "Dzikir2"
-            2 -> "Dzikir3"
+            0 -> "Dzikir"
+            1 -> "Dzikir"
+            2 -> "Dzikir"
             4 -> "Tasbih"
             5 -> "Tahmid"
-            else -> "Takbir"
+            else  -> "Takbir"
         }
     }
 }
