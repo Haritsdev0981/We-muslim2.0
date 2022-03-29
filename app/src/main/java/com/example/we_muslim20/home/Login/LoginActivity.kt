@@ -5,12 +5,10 @@ import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import android.widget.Toast
 import com.example.we_muslim20.MainActivity
 import com.example.we_muslim20.databinding.ActivityLoginBinding
-import com.example.we_muslim20.fragment.HomeFragment
-import com.example.we_muslim20.home.RegisterActivity
+import com.example.we_muslim20.home.register.RegisterActivity
 
 class LoginActivity : AppCompatActivity() {
 

@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wemuslim20.ActionBar">
         <activity
-            android:name=".home.RegisterActivity"
+            android:name=".home.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.register.RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".home.DzikirSetelahSholat.DzikirSholatActivity"

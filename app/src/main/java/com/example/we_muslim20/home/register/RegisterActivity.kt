@@ -1,11 +1,9 @@
-package com.example.we_muslim20.home
+package com.example.we_muslim20.home.register
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.we_muslim20.MainActivity
-import com.example.we_muslim20.R
 import com.example.we_muslim20.databinding.ActivityRegisterBinding
 import com.example.we_muslim20.home.Login.LoginActivity
 
